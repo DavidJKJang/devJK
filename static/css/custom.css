@@ -1,0 +1,27 @@
+.profile_img {
+    width: 50%;
+}
+
+.history, .skill, .contact {
+    height: 100vh;
+}
+
+.platform {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    align-items: center;
+}
+.favor_platform {
+    width: 10rem;
+    height: 5rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+}
+
+.main-bg {
+    background-image: url("/static/images/main.jpg") !important;
+    background-position: 50% 50% !important;
+}
